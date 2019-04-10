@@ -21,6 +21,9 @@ body {
     list-style: none;
     background: darkblue;
     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 #nav li{
@@ -46,6 +49,8 @@ h1, h2 {
 
 #gallery {
     background: red;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-item{
@@ -55,4 +60,11 @@ h1, h2 {
 .sub-section img {
     margin: 10px;
     border: darkblue solid 3px;
+}
+
+.sub-section  {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+
 }
